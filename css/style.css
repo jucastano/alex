@@ -16,7 +16,7 @@ body {
 }
 
 *, a {
-  color: #ffffff;
+  color: #000000;
 }
 
 a, p {
@@ -119,7 +119,7 @@ input[type="text"], input[type="email"] {
 }
 
 header {
-  background-color: #1b2330;
+  
 }
 
 header .container, header .container--small {
