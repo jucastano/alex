@@ -52,7 +52,7 @@ p {
 }
 
 section {
-  background-color: #171e2a;
+  background-color: #ffffff;
 }
 
 .container, .container--small {
@@ -165,7 +165,7 @@ header a:hover {
 
 .hero {
   position: relative;
-  background-color: #1b2330;
+  background-color: #ffffff;
 }
 
 .hero:after {
