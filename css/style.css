@@ -119,7 +119,7 @@ input[type="text"], input[type="email"] {
 }
 
 header {
-  
+  background-color: #ffffff;
 }
 
 header .container, header .container--small {
@@ -136,6 +136,7 @@ header .container, header .container--small {
 @media screen and (min-width: 999px) {
   header .container, header .container--small {
     grid-gap: 56px;
+    padding: 23px 60px 23px 60px;
   }
 }
 
@@ -165,7 +166,7 @@ header a:hover {
 
 .hero {
   position: relative;
-  background-color: #ffffff;
+  background-color: #043576;
 }
 
 .hero:after {
@@ -438,7 +439,7 @@ header a:hover {
   border-radius: 10px;
   -webkit-box-shadow: 0px 12px 20px rgba(0, 0, 0, 0.5);
           box-shadow: 0px 12px 20px rgba(0, 0, 0, 0.5);
-  background-color: #1b2330;
+  background-color: #ffffff;
   padding: 45px 30px 45px 30px;
   text-align: center;
 }

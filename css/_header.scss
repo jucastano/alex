@@ -10,7 +10,8 @@ header {
     
         @include breakpoint(large) {
             grid-gap: 56px;
-            
+            padding: 23px 60px 23px 60px;
+
         }
         
     }
