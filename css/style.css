@@ -136,7 +136,7 @@ header .container, header .container--small {
 @media screen and (min-width: 999px) {
   header .container, header .container--small {
     grid-gap: 56px;
-    padding: 23px 60px 23px 60px;
+    padding: 23px 60px 43px 60px;
   }
 }
 
@@ -146,7 +146,7 @@ header img {
 
 @media screen and (min-width: 999px) {
   header img {
-    width: 185px;
+    width: 135px;
   }
 }
 
@@ -166,13 +166,13 @@ header a:hover {
 
 .hero {
   position: relative;
-  background-image: url("/images/manpaint.png");
+  background-image: url("/images/manpaint2.png");
   background-position: center;
 }
 
 @media screen and (min-width: 699px) {
   .hero {
-    background-image: url("/images/manpaint.png");
+    background-image: url("/images/manpaint2.png");
     background-size: 100%;
   }
 }
@@ -291,6 +291,10 @@ header a:hover {
   font-size: 1rem;
 }
 
+.productive {
+  background-color: #CAE6EF;
+}
+
 .productive_grid {
   display: -ms-grid;
   display: grid;
@@ -388,7 +392,7 @@ header a:hover {
 .quotes .quote {
   position: relative;
   z-index: 1;
-  background-color: #20293b;
+  background-color: #CAE6EF;
   padding: 30px 24px 24px 24px;
   border-radius: 5px;
 }
