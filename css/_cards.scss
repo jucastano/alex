@@ -4,7 +4,7 @@
     max-width: 1340px;
     margin: 0 auto;
     padding: 1rem;
-  
+    padding: 70px 20px 40px 20px;
     @media (min-width: 59em){
       grid-template-columns: repeat(2, 1fr);
     }
@@ -17,6 +17,7 @@
     background: #ffffff;
     border-radius: 10px;
     color: #101010;
+    padding: 0px 0px 30px ;
   
     @media (min-width: 31.25em){
       grid-template-columns: 160px repeat(2, 1fr);
@@ -124,3 +125,4 @@
         grid-row: 2 / 3;
       }
     }
+}
