@@ -1,17 +1,29 @@
 .footer {
-    background-color: $footerBg;
+    background-color: $productive;
     font-size: 1rem;
+    text-align: center;
 
     a:hover {
         text-decoration: underline;
     }
 
-    .container {
+    .container--footer {
+
+        max-width: 1440px;
+        margin: 0 auto;
+        padding: 25px 20px 1px 20px;
+
+
+        @include breakpoint (large) {
+            padding: 35px 60px 35px 60px;
+            
+        }
+
         display: grid;
         grid-row-gap: 35px;
         grid-column-gap: 0px;
         grid-template-columns: 1fr;
-        grid-template-areas: "logo" "address" "contact" "links1" "links2" "social";
+        grid-template-areas: "logo" "contact" "links1" "links2" "social";
 
         @include breakpoint (medium) {
             grid-column-gap: 25px;
@@ -33,9 +45,13 @@
     }
 
     &__logo {
+        
         @include breakpoint (large) {
             grid-area: logo;
-            
+            text-align: left;
+        }
+        img{
+            width: 134px;
         }
 
     }
@@ -63,7 +79,8 @@
         }
 
         &-phone, &-email {
-            display: flex
+            // display: flex;
+            
         }
 
         &-phone {
@@ -75,7 +92,7 @@
         }
 
         &-email svg {
-            width: 20px;
+            width: 28px;
             margin-right: 20px;
         }
     }
